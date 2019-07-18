@@ -1,2 +1,2 @@
-# public_test
+# public_project
 Proiect
