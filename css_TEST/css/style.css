@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    margin: auto 0px;
+}
+
+.mainContent{
+    background:#D2E0E6;
+    padding: 0px 0px 100px 0px;
+}
+
+div.secondContainer{
+    width: 400px;
+}
+div.layer-2{
+padding:0;
+}
+
+header#topHeader {
+    background-color: white;
+    height: 100px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+}
+
+#secondHeader{
+    background: #2aabd2;
+    padding: 100px 0;
+}
+
+h1{
+    color:#fff;
+}
+h2{
+    color:#bae5f5;
+}
+
+.center {
+    width: 930px;
+    margin: 0 auto;
+}
+
+p{
+    color: #5b5a5a;
+
+}
+
+
+footer {
+
+    background-color: #2b81af;
+    padding: 50px 0px 25px 0px;
+}
+
+footer a{
+    color:#93c3d9;
+}
+footer a:hover{
+    text-decoration:none;
+    color:#fff;
+}
+footer a .fab{
+    padding:0 10px 0 0;
+}
+
+footer,#secondHeader{
+    background-color: #2b81af;
+}
+
+ul{
+    text-align: left;
+}
+ul.form-style-1{
+    margin: 0px;
+   padding: 60px 40px 60px 40px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+li {
+    display: block;
+    padding: 7px;
+}
+label{
+    color: #1a1a1a;
+}
+
+h3 {
+    font-size: 20px;
+    color: #f9f9f9;
+}
+span {
+    padding: 5px;
+    display: block;
+}
+
+.form-style-1 {
+    margin:10px auto;
+    max-width: 400px;
+    padding: 20px 12px 10px 20px;
+    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-1 li {
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+.form-style-1 label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    color: #5b5a5a;
+}
+.form-style-1 input[type=text],
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+.form-style-1 input[type=company],
+textarea,
+select{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+    border-radius: 3px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+}
+.form-style-1 input[type=text]:focus,
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 input[type=company]:focus,
+.form-style-1 textarea:focus,
+.form-style-1 select:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+}
+
+.form-style-1 .field-long{
+    width: 100%;
+}
+.form-style-1 .field-select{
+    width: 100%;
+}
+.form-style-1 .field-textarea{
+    height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+    background: #34c2e3;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+    background: #4691A4;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+}
+
+div.firstContainer.col-md-6{
+    margin-bottom: 100px;
+}
+h1.text-center.col-md-12{
+     font-size: 23px;
+     font-weight: bold;
+ }
+h2.text-center.col-md-12{
+    font-size: 13px;
+}
+
+.layer-2:before {
+    content: '';
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    background: #f9f9f9;
+    display: block;
+    position:absolute;
+        top: -36px;
+    left: 162px;
+    box-shadow: 0px 5px 10px #888888;
+}
+.field1{padding-left:0!important;}
+.field2{padding-right:0!important;}
+.field-divided{width:100%;}
+span.a{
+    color: #34c2e3;
+    padding: 0px;
+}
+span.b{
+    font-weight: bold;
+}
+div.row{
+    color: #5b5a5a;
+    margin: 0px 0px -15px 0px;
+    padding-bottom: 0px;
+}
